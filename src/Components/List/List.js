@@ -9,8 +9,8 @@ const List = () => {
   const [View, setView] = useState("Task To Do");
 
   useEffect(() => {
-    setView(View);
-  }, []);
+    // setView(View);
+  }, [View]);
 
   return (
     <>
